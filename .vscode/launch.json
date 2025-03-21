@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: pytest",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/test/test_gold.py",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      },
+      "args": [
+        "-v"
+      ],
+      "justMyCode": true
+    }
+  ]
+}

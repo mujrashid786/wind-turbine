@@ -1,0 +1,21 @@
+# The main pipeline for WindTurbineProject
+resources:
+  pipelines:
+    WindTurbineProject_pipeline:
+      name: WindTurbineProject_pipeline
+      catalog: ci
+      schema: turbines
+      # catalog: workspace
+      # schema: WindTurbineProject_${bundle.target}
+
+      serverless: true
+      libraries:
+        - notebook:
+            path: ../src/wind_turbine_pipeline.py
+
+      configuration:
+        bundle.sourcePath: ${workspace.file_path}/src
+        my_catalog: "ci"
+        my_schema: "turbines"
+        my_volume: "raw"
+
