@@ -21,6 +21,12 @@ This project implements a modern data lakehouse architecture with three layers:
 - Daily performance metrics
 - Failed record tracking and monitoring
 
+## Pipeline Architecture
+
+![Wind Turbine Pipeline Architecture](docs/images/pipeline_architecture.png)
+
+*A visual representation of our data pipeline architecture showing data flow and transformations.*
+
 ## Architecture
 
 ```
