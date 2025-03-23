@@ -10,9 +10,6 @@ This project implements a modern data lakehouse architecture with three layers:
 - **Silver Layer**: Validated and cleaned data with quality checks
 - **Gold Layer**: Daily aggregations and anomaly detection
 
-![Uploading Screenshot 2025-03-21 at 18.12.00.png…]()
-
-
 ### Key Features
 
 - Streaming data ingestion from CSV files
